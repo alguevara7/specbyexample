@@ -1,0 +1,3 @@
+- move swtbot jars to correct package (strip cocoa)
+- get code from https://bugs.eclipse.org/bugs/show_bug.cgi?id=308425
+- run SwtBotTest successfully.

@@ -36,6 +36,21 @@
 		</dependency>
 	</dependencies>
 
+	<repositories>
+		<repository>
+			<id>alexguev@github</id>
+			<name>alexguev@github</name>
+			<url>http://github.com/alexguev/maven2/raw/master</url>
+			<releases>
+				<enabled>true</enabled>
+				<checksumPolicy>ignore</checksumPolicy>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+
 	<profiles>
 		<profile>
 			<id>mac</id>
@@ -45,7 +60,7 @@
 				</os>
 			</activation>
 			<properties>
-				<swt.groupId>org.eclipse.swt.cocoa</swt.groupId>
+				<swt.groupId>org.eclipse.swt</swt.groupId>
 				<swt.artifactId>macosx</swt.artifactId>
 			</properties>
 		</profile>
