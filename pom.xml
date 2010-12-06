@@ -40,7 +40,7 @@
 		<repository>
 			<id>alexguev@github</id>
 			<name>alexguev@github</name>
-			<url>http://github.com/alexguev/maven2/raw/master</url>
+			<url>https://github.com/alexguev/maven2/raw/master</url>
 			<releases>
 				<enabled>true</enabled>
 				<checksumPolicy>ignore</checksumPolicy>
